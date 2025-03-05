@@ -184,7 +184,7 @@ cp -r themes/hugo-theme-stack/exampleSite/* .
           enabled: true
       content:
           enabled: true
-</details> ```
+</details> 
 
 
 
