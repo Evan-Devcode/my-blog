@@ -2,99 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/categories/</loc>
+    <loc>http://localhost:1313/my-blog/ar/categories/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evan-devcode.github.io/my-blog/categories/"
+                href="http://localhost:1313/my-blog/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://evan-devcode.github.io/my-blog/zh-cn/categories/"
+                href="http://localhost:1313/my-blog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://evan-devcode.github.io/my-blog/ar/categories/"
+                href="http://localhost:1313/my-blog/ar/categories/"
                 />
   </url><url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/post/</loc>
+    <loc>http://localhost:1313/my-blog/ar/post/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://evan-devcode.github.io/my-blog/post/"
+                hreflang="zh-cn"
+                href="http://localhost:1313/my-blog/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://evan-devcode.github.io/my-blog/ar/post/"
+                href="http://localhost:1313/my-blog/ar/post/"
                 />
   </url><url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/tags/</loc>
+    <loc>http://localhost:1313/my-blog/ar/tags/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evan-devcode.github.io/my-blog/tags/"
+                href="http://localhost:1313/my-blog/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://evan-devcode.github.io/my-blog/zh-cn/tags/"
+                href="http://localhost:1313/my-blog/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://evan-devcode.github.io/my-blog/ar/tags/"
+                href="http://localhost:1313/my-blog/ar/tags/"
                 />
   </url><url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</loc>
+    <loc>http://localhost:1313/my-blog/ar/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
+    <loc>http://localhost:1313/my-blog/ar/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</loc>
+    <loc>http://localhost:1313/my-blog/ar/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/</loc>
+    <loc>http://localhost:1313/my-blog/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://evan-devcode.github.io/my-blog/p/placeholder-text/"
+                hreflang="zh-cn"
+                href="http://localhost:1313/my-blog/p/placeholder-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://evan-devcode.github.io/my-blog/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/"
+                href="http://localhost:1313/my-blog/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/"
                 />
   </url><url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/</loc>
+    <loc>http://localhost:1313/my-blog/ar/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evan-devcode.github.io/my-blog/"
+                href="http://localhost:1313/my-blog/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://evan-devcode.github.io/my-blog/zh-cn/"
+                href="http://localhost:1313/my-blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://evan-devcode.github.io/my-blog/ar/"
+                href="http://localhost:1313/my-blog/ar/"
                 />
   </url><url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/tags/%D9%86%D8%B5/</loc>
+    <loc>http://localhost:1313/my-blog/ar/tags/%D9%86%D8%B5/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://evan-devcode.github.io/my-blog/ar/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
+    <loc>http://localhost:1313/my-blog/ar/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
 </urlset>
