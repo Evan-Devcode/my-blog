@@ -82,6 +82,70 @@ git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-t
 ### 3. 创建工作流配置
 ### 4. 部署和验证
 
+### GitHub Actions 部署配置
+#### **Token 认证方式**
+1. 访问 GitHub [Developer Settings](https://github.com/settings/tokens) 生成 **Personal Access Token (PAT)**。
+2. 选择 `repo` 权限。
+3. 在 **源代码仓库** 的 `Settings -> Secrets and variables -> Actions` 添加 `PERSONAL_TOKEN`。
+
+#### **SSH 认证方式**
+```sh
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f gh-pages-deploy
+```
+- 将 `gh-pages-deploy.pub` 添加到 **目标仓库** 的 `Deploy Keys`。
+- 将 `gh-pages-deploy` 私钥添加到 **源代码仓库** 的 `Actions Secrets`。
+
+### 3. 配置 GitHub Actions
+创建 `.github/workflows/deploy.yml` 文件，内容如下：
+```yaml
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --minify --baseURL https://your-username.github.io/
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: your-username/your-username.github.io
+          publish_branch: main
+          publish_dir: ./public
+```
+
+### 4. 推送到远程仓库
+```sh
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/your-username/blog-source.git
+git push -u origin main
+```
+
+### 5. 启用 GitHub Pages
+在 **目标仓库** (`your-username.github.io`) 的 `Settings -> Pages` 中，选择 `main` 分支并保存。
+
+### 6. 验证部署
+访问 `https://your-username.github.io/` 查看博客。
 
 ## 后续维护
 ### 添加新文章
