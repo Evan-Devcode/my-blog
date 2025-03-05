@@ -184,13 +184,6 @@ cp -r themes/hugo-theme-stack/exampleSite/* .
           enabled: true
       content:
           enabled: true
-</details> ```
-
-
-
-
-
-
 
 # 小工具配置
 widgets:
@@ -290,7 +283,7 @@ markup:
         lineNos: true  # 是否显示行号
         lineNumbersInTable: true  # 行号是否使用表格格式
         tabWidth: 4  # 代码缩进宽度
-```
+</details> ```
 
 
 
