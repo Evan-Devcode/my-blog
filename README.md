@@ -75,13 +75,8 @@ cp -r themes/hugo-theme-stack/exampleSite/* .
 ### 5. 配置站点
 修改 hugo.toml 或 hugo.yaml 文件，更新 baseURL 变量。
 <details>
-  <summary>点击展开代码</summary>
-     yaml
-  baseurl: https://evan-devcode.github.io/my-blog/  
-  languageCode: zh-cn  
-  title: Evan's Blog  
-  theme: hugo-theme-stack  
-  copyright: Example Person  
+  <summary>点击展开 Hugo 配置文件</summary>
+     
 </details> 
 
 
