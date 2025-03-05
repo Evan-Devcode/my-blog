@@ -22,7 +22,7 @@ wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0
 sudo dpkg -i hugo_extended_0.145.0_linux-amd64.deb
 ```
 
-## Hugo 博客网站创建步骤
+## hugo创建博客网站步骤
 ### 1. 创建新站点
 ```bash
 hugo new site my-blog
