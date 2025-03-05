@@ -20,6 +20,7 @@ Hugo 是一个快速灵活的静态网站生成器。本指南将帮助您从零
 ```bash
 wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0.145.0_linux-amd64.debwget
 sudo dpkg -i hugo_extended_0.145.0_linux-amd64.deb
+```
 
 # Hugo 博客网站创建步骤
 ## 1. 创建新站点
