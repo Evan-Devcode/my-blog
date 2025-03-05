@@ -4,7 +4,7 @@ Hugo 是一个快速灵活的静态网站生成器。本指南将帮助您从零
 
 ## 目录
 - [安装 Hugo](#安装-hugo)
-- [创建博客网站](#hugo 创建博客网站步骤)
+- [创建博客网站](# hugo创建博客网站步骤)
 - [部署到 GitHub Pages](#部署项目到同一用户的另一个仓库的正确步骤顺序)
 - [后续维护](#后续维护)
 
@@ -81,6 +81,7 @@ git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-t
 
 
 
+## 后续维护
 
 
 
