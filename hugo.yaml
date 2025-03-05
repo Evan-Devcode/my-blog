@@ -1,4 +1,4 @@
-baseurl: https://github.com/Evan-Devcode/my-blog
+baseurl: https://github.com/Evan-Devcode/my-blog 
 languageCode: en-us
 theme: hugo-theme-stack
 title: Example Site
