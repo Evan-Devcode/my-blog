@@ -74,10 +74,9 @@ cp -r themes/hugo-theme-stack/exampleSite/* .
 
 ### 5. 配置站点
 修改 hugo.toml 或 hugo.yaml 文件，更新 baseURL 变量。
-
 <details>
   <summary>点击展开 Hugo 配置文件</summary>
-  
+
   ```yaml
   # Hugo 站点的基本配置信息 
   baseurl: https://evan-devcode.github.io/my-blog/  # 站点的基础 URL，部署到 GitHub Pages 时需填写完整 URL
@@ -184,106 +183,8 @@ cp -r themes/hugo-theme-stack/exampleSite/* .
           enabled: true
       content:
           enabled: true
+</details> ```
 
-# 小工具配置
-widgets:
-    homepage:
-        - type: search  # 搜索框
-        - type: archives  # 归档
-          params:
-              limit: 5  # 显示最近 5 篇文章
-        - type: categories  # 分类
-          params:
-              limit: 10
-        - type: tag-cloud  # 标签云
-          params:
-              limit: 10
-    page:
-        - type: toc  # 页面目录（Table of Contents）
-
-# Open Graph 配置（社交媒体分享）
-opengraph:
-    twitter:
-        site:  # Twitter 用户名
-        card: summary_large_image  # 分享卡片类型
-
-# 默认 Open Graph 图片
-defaultImage:
-    opengraph:
-        enabled: false
-        local: false
-        src:
-
-# 颜色主题配置
-colorScheme:
-    toggle: true  # 是否显示深浅色主题切换按钮
-    default: auto  # 默认主题，可选值：auto, light, dark
-
-# 图片处理配置
-imageProcessing:
-    cover:
-        enabled: true
-    content:
-        enabled: true
-
-# 自定义菜单
-menu:
-    main: []  # 主要菜单
-
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
-          params:
-              icon: brand-github
-
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
-
-# 相关文章推荐
-related:
-    includeNewer: true  # 是否包括较新的文章
-    threshold: 60  # 相关性阈值
-    toLower: false
-    indices:
-        - name: tags
-          weight: 100  # 标签权重
-        - name: categories
-          weight: 200  # 分类权重
-
-# Markdown 解析器配置
-markup:
-    goldmark:
-        extensions:
-            passthrough:
-                enable: true
-                delimiters:
-                    block:
-                        - - \[
-                          - \]
-                        - - $$
-                          - $$
-                    inline:
-                        - - \(
-                          - \)
-        renderer:
-            unsafe: true  # 允许 Markdown 中包含 HTML 代码
-    tableOfContents:
-        endLevel: 4  # 目录最大层级
-        ordered: true  # 目录是否为有序列表
-        startLevel: 2  # 目录起始层级
-    highlight:
-        noClasses: false
-        codeFences: true  # 代码块是否高亮
-        guessSyntax: true  # 自动识别代码语言
-        lineNoStart: 1  # 代码行号起始值
-        lineNos: true  # 是否显示行号
-        lineNumbersInTable: true  # 行号是否使用表格格式
-        tabWidth: 4  # 代码缩进宽度
-```</details> 
 
 
 
