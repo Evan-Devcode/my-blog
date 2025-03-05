@@ -27,6 +27,7 @@ sudo dpkg -i hugo_extended_0.145.0_linux-amd64.deb
 ```bash
 hugo new site my-blog
 cd my-blog
+```
 
 ### 2. 目录结构
 ```bash
@@ -40,12 +41,36 @@ my-site/                     # Hugo 站点的根目录
 ├── static/                  # 静态文件目录
 ├── themes/                  # 主题目录
 └── public/                  # 生成的静态网站文件
+```
 
 ### 3. 初始化仓库
 ```bash
 git init
+```
 
 ### 4. 安装主题
 ```bash
 git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+```
+
+### 5. 配置站点
+```bash
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+```
+
+
+### 6. 创建内容
+```bash
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+```
+
+### 7. 本地预览
+```bash
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+```
+
+### 8. 生成静态网站
+```bash
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+```
 
