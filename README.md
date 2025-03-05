@@ -76,7 +76,11 @@ cp -r themes/hugo-theme-stack/exampleSite/* .
 修改 hugo.toml 或 hugo.yaml 文件，更新 baseURL 变量。
 <details>
   <summary>点击展开 Hugo 配置文件</summary>
-     
+
+```
+lasdhfoa
+
+```
 </details> 
 
 
