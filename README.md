@@ -77,6 +77,7 @@ cp -r themes/hugo-theme-stack/exampleSite/* .
 
 <details>
   <summary>点击展开 Hugo 配置文件</summary>
+  
   ```yaml
   # Hugo 站点的基本配置信息 
   baseurl: https://evan-devcode.github.io/my-blog/  # 站点的基础 URL，部署到 GitHub Pages 时需填写完整 URL
