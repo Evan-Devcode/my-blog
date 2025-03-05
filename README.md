@@ -22,7 +22,30 @@ wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0
 sudo dpkg -i hugo_extended_0.145.0_linux-amd64.deb
 ```
 
-# Hugo 博客网站创建步骤
-## 1. 创建新站点
+## Hugo 博客网站创建步骤
+### 1. 创建新站点
 ```bash
-hugo new site .
+hugo new site my-blog
+cd my-blog
+
+### 2. 目录结构
+```bash
+my-site/                     # Hugo 站点的根目录
+├── archetypes/              # 内容模板文件
+├── assets/                  # Hugo Pipes 处理的静态资源
+├── config/                  # 配置文件目录
+├── content/                 # 内容文件目录
+├── data/                    # 数据文件目录
+├── layouts/                 # 模板文件目录
+├── static/                  # 静态文件目录
+├── themes/                  # 主题目录
+└── public/                  # 生成的静态网站文件
+
+### 3. 初始化仓库
+```bash
+git init
+
+### 4. 安装主题
+```bash
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+
