@@ -11,10 +11,12 @@ Hugo 是一个快速灵活的静态网站生成器。本指南将帮助您从零
 ## 安装 Hugo
 
 ### Windows
-待补充
+请参考 [Hugo 官方文档](https://gohugo.io/installation/windows/) 进行安装。
 
 ### macOS
-待补充
+```sh
+brew install hugo
+```
 
 ### Linux
 ```bash
