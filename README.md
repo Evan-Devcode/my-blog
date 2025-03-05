@@ -77,16 +77,24 @@ git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-t
 
 
 ## 部署项目到同一用户的另一个仓库的正确步骤顺序
-
-
+### 1. 创建仓库（源码仓库和部署仓库）
+### 2. 配置仓库访问权限
+### 3. 创建工作流配置
+### 4. 部署和验证
 
 
 ## 后续维护
+### 添加新文章
+```
+hugo new post/新文章标题.md
+```
 
-
-
-
-
+### 更新网站
+```
+git add .
+git commit -m "添加新文章"
+git push
+```
 
 
 
