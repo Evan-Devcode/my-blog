@@ -75,118 +75,14 @@ cp -r themes/hugo-theme-stack/exampleSite/* .
 ### 5. 配置站点
 修改 hugo.toml 或 hugo.yaml 文件，更新 baseURL 变量。
 <details>
-  <summary>点击展开 Hugo 配置文件</summary>
-
-  ```yaml
-  # Hugo 站点的基本配置信息 
-  baseurl: https://evan-devcode.github.io/my-blog/  # 站点的基础 URL，部署到 GitHub Pages 时需填写完整 URL
-  languageCode: zh-cn  # 站点的默认语言（中文）
-  title: Evan's Blog  # 网站标题
-  theme: hugo-theme-stack  # 使用的 Hugo 主题
-  copyright: Example Person  # 版权信息
-
-  # 主题的国际化支持
-  DefaultContentLanguage: zh-cn  # 站点默认语言（可选值见注释）
-  hasCJKLanguage: false  # 若站点使用 CJK 语言（中文、日文、韩文），设置为 true 以优化字数统计等功能
-
-  languages:
-      zh-cn:
-          languageName: 中文  # 语言显示名称
-          title: Evan's Blog  # 站点标题
-          weight: 2  # 语言权重，数字越小优先级越高
-          params:
-              sidebar:
-                  subtitle:  # 侧边栏副标题
-
-  # 第三方服务配置
-  services:
-      disqus:
-          shortname: "hugo-theme-stack"  # Disqus 评论系统的短名称
-      googleAnalytics:
-          id:  # Google Analytics 跟踪 ID
-
-  # 文章分页配置
-  pagination:
-      pagerSize: 3  # 分页时，每页显示的文章数量
-
-  # 文章链接的自定义格式
-  permalinks:
-      post: /p/:slug/  # 文章的永久链接格式
-      page: /:slug/  # 页面（非文章）的永久链接格式
-
-  # 站点参数配置
-  params:
-      mainSections:
-          - post  # 主要内容的分类
-      featuredImageField: image  # 文章特色图片字段
-      rssFullContent: true  # RSS 订阅输出全文
-      favicon:  # 站点 favicon
-
-      footer:
-          since: 2020  # 站点创建年份
-          customText:  # 页脚自定义文本
-
-      dateFormat:
-          published: Jan 02, 2006  # 文章发布时间格式
-          lastUpdated: Jan 02, 2006 15:04 MST  # 文章更新时间格式
-
-      sidebar:
-          emoji: 🍥  # 侧边栏图标
-          subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  # 侧边栏副标题
-          avatar:
-              enabled: true  # 是否显示头像
-              local: true  # 头像是否本地存储
-              src: img/avatar.png  # 头像图片路径
-
-      article:
-          math: false  # 是否启用数学公式支持
-          toc: true  # 是否显示目录
-          readingTime: true  # 是否显示阅读时间
-          license:
-              enabled: true  # 是否启用文章版权声明
-              default: Licensed under CC BY-NC-SA 4.0  # 文章默认许可证
-
-      comments:
-          enabled: true  # 是否启用评论
-          provider: disqus  # 默认使用 Disqus 评论系统
-
-  # 小工具配置
-  widgets:
-      homepage:
-          - type: search  # 搜索框
-          - type: archives  # 归档
-            params:
-                limit: 5  # 显示最近 5 篇文章
-          - type: categories  # 分类
-            params:
-                limit: 10
-          - type: tag-cloud  # 标签云
-            params:
-                limit: 10
-      page:
-          - type: toc  # 页面目录（Table of Contents）
-
-  # Open Graph 配置（社交媒体分享）
-  opengraph:
-      twitter:
-          site:  # Twitter 用户名
-          card: summary_large_image  # 分享卡片类型
-
-  # 颜色主题配置
-  colorScheme:
-      toggle: true  # 是否显示深浅色主题切换按钮
-      default: auto  # 默认主题，可选值：auto, light, dark
-
-  # 图片处理配置
-  imageProcessing:
-      cover:
-          enabled: true
-      content:
-          enabled: true
-</details> ```
-
-
-
+  <summary>点击展开代码</summary>
+     yaml
+  baseurl: https://evan-devcode.github.io/my-blog/  
+  languageCode: zh-cn  
+  title: Evan's Blog  
+  theme: hugo-theme-stack  
+  copyright: Example Person  
+</details> 
 
 
 
